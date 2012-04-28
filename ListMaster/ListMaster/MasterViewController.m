@@ -44,9 +44,9 @@
     _objects=[[NSMutableArray alloc]init];
     
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone){
-        shoppingListController=[[ShoppingListControllerViewController_iPhone alloc]init];
+        shoppingListController=[[ShoppingListViewController_iPhone alloc]initWithNibName:@"ShoppingListViewController_iPhone" bundle:nil];
     }else {
-        shoppingListController=[[ShoppingListControllerViewController_iPad alloc]init];
+        shoppingListController=[[ShoppingListViewController_iPad alloc]initWithNibName:@"ShoppingListViewController_iPad" bundle:nil];
     }
     
     [shoppingListController setDescription:@"Shopping List"];
@@ -146,16 +146,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-	    if (!self.detailViewController) {
-	        self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil];
-	    }
-	    self.detailViewController.detailItem = object;
-        [self.navigationController pushViewController:self.detailViewController animated:YES];
-    } else {
-        self.detailViewController.detailItem = object;
+    DetailViewController *object = [_objects objectAtIndex:indexPath.row];
+    if([[UIDevice currentDevice]userInterfaceIdiom]==UIUserInterfaceIdiomPhone){
+        [[self navigationController]pushViewController:object animated:YES];
+    }else{
+        [[[self detailViewController]navigationController]pushViewController:object animated:YES];
     }
+  
+	  //  self.detailViewController.detailItem = object;
+      //  [DetailViewController.navigationController pushViewController:object animated:YES];
+    
 }
 
 @end

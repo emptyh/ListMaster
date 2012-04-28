@@ -10,6 +10,7 @@
 
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 
+@property (nonatomic, retain)NSString *description;
 @property (strong, nonatomic) id detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;

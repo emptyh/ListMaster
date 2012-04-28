@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-@interface ShoppingListControllerViewController : UIViewController
+@interface ShoppingListViewController : DetailViewController
+
+
 
 @end

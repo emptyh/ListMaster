@@ -1,18 +1,18 @@
 //
-//  ShoppingListControllerViewController.m
+//  ShoppingListControllerViewController_iPhone.m
 //  ListMaster
 //
 //  Created by Mike Hickman on 4/28/12.
 //  Copyright (c) 2012 Hobsons. All rights reserved.
 //
 
-#import "ShoppingListControllerViewController.h"
+#import "ShoppingListViewController_iPhone.h"
 
-@interface ShoppingListControllerViewController ()
+@interface ShoppingListViewController_iPhone ()
 
 @end
 
-@implementation ShoppingListControllerViewController
+@implementation ShoppingListViewController_iPhone
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,13 +26,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

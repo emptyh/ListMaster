@@ -24,11 +24,11 @@
 		BF9607DD154C657C002118D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607B2154C657B002118D8 /* Foundation.framework */; };
 		BF9607E5154C657C002118D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9607E3154C657C002118D8 /* InfoPlist.strings */; };
 		BF9607E8154C657C002118D8 /* ListMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607E7154C657C002118D8 /* ListMasterTests.m */; };
-		BF9607F5154C6B5D002118D8 /* ShoppingListControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607F4154C6B5D002118D8 /* ShoppingListControllerViewController.m */; };
-		BF9607F9154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607F7154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m */; };
-		BF9607FA154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607F8154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib */; };
-		BF9607FE154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607FC154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m */; };
-		BF9607FF154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607FD154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib */; };
+		BF9607F5154C6B5D002118D8 /* ShoppingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607F4154C6B5D002118D8 /* ShoppingListViewController.m */; };
+		BF9607F9154C6B8B002118D8 /* ShoppingListViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607F7154C6B8B002118D8 /* ShoppingListViewController_iPad.m */; };
+		BF9607FA154C6B8B002118D8 /* ShoppingListViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607F8154C6B8B002118D8 /* ShoppingListViewController_iPad.xib */; };
+		BF9607FE154C6BA5002118D8 /* ShoppingListViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607FC154C6BA5002118D8 /* ShoppingListViewController_iPhone.m */; };
+		BF9607FF154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607FD154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +66,14 @@
 		BF9607E4154C657C002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF9607E6154C657C002118D8 /* ListMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListMasterTests.h; sourceTree = "<group>"; };
 		BF9607E7154C657C002118D8 /* ListMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListMasterTests.m; sourceTree = "<group>"; };
-		BF9607F3154C6B5D002118D8 /* ShoppingListControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListControllerViewController.h; sourceTree = "<group>"; };
-		BF9607F4154C6B5D002118D8 /* ShoppingListControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListControllerViewController.m; sourceTree = "<group>"; };
-		BF9607F6154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListControllerViewController_iPad.h; sourceTree = "<group>"; };
-		BF9607F7154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListControllerViewController_iPad.m; sourceTree = "<group>"; };
-		BF9607F8154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListControllerViewController_iPad.xib; sourceTree = "<group>"; };
-		BF9607FB154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListControllerViewController_iPhone.h; sourceTree = "<group>"; };
-		BF9607FC154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListControllerViewController_iPhone.m; sourceTree = "<group>"; };
-		BF9607FD154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListControllerViewController_iPhone.xib; sourceTree = "<group>"; };
+		BF9607F3154C6B5D002118D8 /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShoppingListViewController.h; sourceTree = "<group>"; };
+		BF9607F4154C6B5D002118D8 /* ShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController.m; sourceTree = "<group>"; };
+		BF9607F6154C6B8B002118D8 /* ShoppingListViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShoppingListViewController_iPad.h; sourceTree = "<group>"; };
+		BF9607F7154C6B8B002118D8 /* ShoppingListViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController_iPad.m; sourceTree = "<group>"; };
+		BF9607F8154C6B8B002118D8 /* ShoppingListViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListViewController_iPad.xib; sourceTree = "<group>"; };
+		BF9607FB154C6BA5002118D8 /* ShoppingListViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShoppingListViewController_iPhone.h; sourceTree = "<group>"; };
+		BF9607FC154C6BA5002118D8 /* ShoppingListViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController_iPhone.m; sourceTree = "<group>"; };
+		BF9607FD154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListViewController_iPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 				BF9607C5154C657B002118D8 /* DetailViewController.h */,
 				BF9607C6154C657B002118D8 /* DetailViewController.m */,
 				BF9607B7154C657B002118D8 /* Supporting Files */,
-				BF9607F3154C6B5D002118D8 /* ShoppingListControllerViewController.h */,
-				BF9607F4154C6B5D002118D8 /* ShoppingListControllerViewController.m */,
+				BF9607F3154C6B5D002118D8 /* ShoppingListViewController.h */,
+				BF9607F4154C6B5D002118D8 /* ShoppingListViewController.m */,
 			);
 			path = ListMaster;
 			sourceTree = "<group>";
@@ -183,9 +183,9 @@
 			children = (
 				BF9607CE154C657C002118D8 /* DetailViewController_iPhone.xib */,
 				BF9607C8154C657B002118D8 /* MasterViewController_iPhone.xib */,
-				BF9607FB154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.h */,
-				BF9607FC154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m */,
-				BF9607FD154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib */,
+				BF9607FB154C6BA5002118D8 /* ShoppingListViewController_iPhone.h */,
+				BF9607FC154C6BA5002118D8 /* ShoppingListViewController_iPhone.m */,
+				BF9607FD154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -194,9 +194,9 @@
 			isa = PBXGroup;
 			children = (
 				BF9607D1154C657C002118D8 /* DetailViewController_iPad.xib */,
-				BF9607F6154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.h */,
-				BF9607F7154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m */,
-				BF9607F8154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib */,
+				BF9607F6154C6B8B002118D8 /* ShoppingListViewController_iPad.h */,
+				BF9607F7154C6B8B002118D8 /* ShoppingListViewController_iPad.m */,
+				BF9607F8154C6B8B002118D8 /* ShoppingListViewController_iPad.xib */,
 				BF9607CB154C657C002118D8 /* MasterViewController_iPad.xib */,
 			);
 			name = iPad;
@@ -278,8 +278,8 @@
 				BF9607CD154C657C002118D8 /* MasterViewController_iPad.xib in Resources */,
 				BF9607D0154C657C002118D8 /* DetailViewController_iPhone.xib in Resources */,
 				BF9607D3154C657C002118D8 /* DetailViewController_iPad.xib in Resources */,
-				BF9607FA154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib in Resources */,
-				BF9607FF154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib in Resources */,
+				BF9607FA154C6B8B002118D8 /* ShoppingListViewController_iPad.xib in Resources */,
+				BF9607FF154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,9 +318,9 @@
 				BF9607C1154C657B002118D8 /* AppDelegate.m in Sources */,
 				BF9607C4154C657B002118D8 /* MasterViewController.m in Sources */,
 				BF9607C7154C657B002118D8 /* DetailViewController.m in Sources */,
-				BF9607F5154C6B5D002118D8 /* ShoppingListControllerViewController.m in Sources */,
-				BF9607F9154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m in Sources */,
-				BF9607FE154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m in Sources */,
+				BF9607F5154C6B5D002118D8 /* ShoppingListViewController.m in Sources */,
+				BF9607F9154C6B8B002118D8 /* ShoppingListViewController_iPad.m in Sources */,
+				BF9607FE154C6BA5002118D8 /* ShoppingListViewController_iPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

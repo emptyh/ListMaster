@@ -1,18 +1,18 @@
 //
-//  ShoppingListControllerViewController_iPhone.m
+//  ShoppingListControllerViewController_iPad.m
 //  ListMaster
 //
 //  Created by Mike Hickman on 4/28/12.
 //  Copyright (c) 2012 Hobsons. All rights reserved.
 //
 
-#import "ShoppingListControllerViewController_iPhone.h"
+#import "ShoppingListViewController_iPad.h"
 
-@interface ShoppingListControllerViewController_iPhone ()
+@interface ShoppingListViewController_iPad ()
 
 @end
 
-@implementation ShoppingListControllerViewController_iPhone
+@implementation ShoppingListViewController_iPad
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,7 +38,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
 
 @end

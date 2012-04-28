@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-#import "ShoppingListControllerViewController_iPad.h"
-#import "ShoppingListControllerViewController_iPhone.h"
+#import "ShoppingListViewController_iPad.h"
+#import "ShoppingListViewController_iPhone.h"
+#import "AppDelegate.h"
 
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
-@property(retain, nonatomic) ShoppingListControllerViewController *shoppingListController;
+@property(retain, nonatomic) ShoppingListViewController *shoppingListController;
 @end

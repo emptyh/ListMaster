@@ -1,18 +1,19 @@
 //
-//  ShoppingListControllerViewController_iPad.m
+//  ShoppingListControllerViewController.m
 //  ListMaster
 //
 //  Created by Mike Hickman on 4/28/12.
 //  Copyright (c) 2012 Hobsons. All rights reserved.
 //
 
-#import "ShoppingListControllerViewController_iPad.h"
+#import "ShoppingListViewController.h"
 
-@interface ShoppingListControllerViewController_iPad ()
+@interface ShoppingListViewController ()
 
 @end
 
-@implementation ShoppingListControllerViewController_iPad
+@implementation ShoppingListViewController
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,19 +27,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+	// Do any additional setup after loading the view.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end

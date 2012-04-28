@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 Hobsons. All rights reserved.
 //
 
-#import "ShoppingListControllerViewController.h"
+#import "ShoppingListViewController.h"
 
-@interface ShoppingListControllerViewController_iPad : ShoppingListControllerViewController
+@interface ShoppingListViewController_iPad : ShoppingListViewController
 
 @end

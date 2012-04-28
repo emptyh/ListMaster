@@ -43,16 +43,16 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "ListMaster/DetailViewController.m"
-         timestampString = "357331403.655475"
+         filePath = "ListMaster/MasterViewController.m"
+         timestampString = "357333890.122952"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "83"
-         endingLineNumber = "83"
-         landmarkName = "-splitViewController:willHideViewController:withBarButtonItem:forPopoverController:"
+         startingLineNumber = "150"
+         endingLineNumber = "150"
+         landmarkName = "-tableView:didSelectRowAtIndexPath:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
