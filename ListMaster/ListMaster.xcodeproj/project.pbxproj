@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9607B1154C657B002118D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607B0154C657B002118D8 /* UIKit.framework */; };
+		BF9607B3154C657B002118D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607B2154C657B002118D8 /* Foundation.framework */; };
+		BF9607B5154C657B002118D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607B4154C657B002118D8 /* CoreGraphics.framework */; };
+		BF9607BB154C657B002118D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9607B9154C657B002118D8 /* InfoPlist.strings */; };
+		BF9607BD154C657B002118D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607BC154C657B002118D8 /* main.m */; };
+		BF9607C1154C657B002118D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607C0154C657B002118D8 /* AppDelegate.m */; };
+		BF9607C4154C657B002118D8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607C3154C657B002118D8 /* MasterViewController.m */; };
+		BF9607C7154C657B002118D8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607C6154C657B002118D8 /* DetailViewController.m */; };
+		BF9607CA154C657B002118D8 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607C8154C657B002118D8 /* MasterViewController_iPhone.xib */; };
+		BF9607CD154C657C002118D8 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607CB154C657C002118D8 /* MasterViewController_iPad.xib */; };
+		BF9607D0154C657C002118D8 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607CE154C657C002118D8 /* DetailViewController_iPhone.xib */; };
+		BF9607D3154C657C002118D8 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607D1154C657C002118D8 /* DetailViewController_iPad.xib */; };
+		BF9607DB154C657C002118D8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607DA154C657C002118D8 /* SenTestingKit.framework */; };
+		BF9607DC154C657C002118D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607B0154C657B002118D8 /* UIKit.framework */; };
+		BF9607DD154C657C002118D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9607B2154C657B002118D8 /* Foundation.framework */; };
+		BF9607E5154C657C002118D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9607E3154C657C002118D8 /* InfoPlist.strings */; };
+		BF9607E8154C657C002118D8 /* ListMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607E7154C657C002118D8 /* ListMasterTests.m */; };
+		BF9607F5154C6B5D002118D8 /* ShoppingListControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607F4154C6B5D002118D8 /* ShoppingListControllerViewController.m */; };
+		BF9607F9154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607F7154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m */; };
+		BF9607FA154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607F8154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib */; };
+		BF9607FE154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607FC154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m */; };
+		BF9607FF154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607FD154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9607DE154C657C002118D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9607A3154C657B002118D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9607AB154C657B002118D8;
+			remoteInfo = ListMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9607AC154C657B002118D8 /* ListMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9607B0154C657B002118D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF9607B2154C657B002118D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF9607B4154C657B002118D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF9607B8154C657B002118D8 /* ListMaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ListMaster-Info.plist"; sourceTree = "<group>"; };
+		BF9607BA154C657B002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF9607BC154C657B002118D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF9607BE154C657B002118D8 /* ListMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ListMaster-Prefix.pch"; sourceTree = "<group>"; };
+		BF9607BF154C657B002118D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF9607C0154C657B002118D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF9607C2154C657B002118D8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BF9607C3154C657B002118D8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BF9607C5154C657B002118D8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BF9607C6154C657B002118D8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BF9607C9154C657B002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		BF9607CC154C657C002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		BF9607CF154C657C002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		BF9607D2154C657C002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		BF9607D9154C657C002118D8 /* ListMasterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListMasterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9607DA154C657C002118D8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF9607E2154C657C002118D8 /* ListMasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ListMasterTests-Info.plist"; sourceTree = "<group>"; };
+		BF9607E4154C657C002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF9607E6154C657C002118D8 /* ListMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListMasterTests.h; sourceTree = "<group>"; };
+		BF9607E7154C657C002118D8 /* ListMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListMasterTests.m; sourceTree = "<group>"; };
+		BF9607F3154C6B5D002118D8 /* ShoppingListControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListControllerViewController.h; sourceTree = "<group>"; };
+		BF9607F4154C6B5D002118D8 /* ShoppingListControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListControllerViewController.m; sourceTree = "<group>"; };
+		BF9607F6154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListControllerViewController_iPad.h; sourceTree = "<group>"; };
+		BF9607F7154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListControllerViewController_iPad.m; sourceTree = "<group>"; };
+		BF9607F8154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListControllerViewController_iPad.xib; sourceTree = "<group>"; };
+		BF9607FB154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListControllerViewController_iPhone.h; sourceTree = "<group>"; };
+		BF9607FC154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListControllerViewController_iPhone.m; sourceTree = "<group>"; };
+		BF9607FD154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListControllerViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9607A9154C657B002118D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9607B1154C657B002118D8 /* UIKit.framework in Frameworks */,
+				BF9607B3154C657B002118D8 /* Foundation.framework in Frameworks */,
+				BF9607B5154C657B002118D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9607D5154C657C002118D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9607DB154C657C002118D8 /* SenTestingKit.framework in Frameworks */,
+				BF9607DC154C657C002118D8 /* UIKit.framework in Frameworks */,
+				BF9607DD154C657C002118D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9607A1154C657B002118D8 = {
+			isa = PBXGroup;
+			children = (
+				BF9607B6154C657B002118D8 /* ListMaster */,
+				BF9607E0154C657C002118D8 /* ListMasterTests */,
+				BF9607AF154C657B002118D8 /* Frameworks */,
+				BF9607AD154C657B002118D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9607AD154C657B002118D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607AC154C657B002118D8 /* ListMaster.app */,
+				BF9607D9154C657C002118D8 /* ListMasterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9607AF154C657B002118D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607B0154C657B002118D8 /* UIKit.framework */,
+				BF9607B2154C657B002118D8 /* Foundation.framework */,
+				BF9607B4154C657B002118D8 /* CoreGraphics.framework */,
+				BF9607DA154C657C002118D8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9607B6154C657B002118D8 /* ListMaster */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607F2154C6AE6002118D8 /* iPad */,
+				BF9607F1154C6AD7002118D8 /* iPhone */,
+				BF9607BF154C657B002118D8 /* AppDelegate.h */,
+				BF9607C0154C657B002118D8 /* AppDelegate.m */,
+				BF9607C2154C657B002118D8 /* MasterViewController.h */,
+				BF9607C3154C657B002118D8 /* MasterViewController.m */,
+				BF9607C5154C657B002118D8 /* DetailViewController.h */,
+				BF9607C6154C657B002118D8 /* DetailViewController.m */,
+				BF9607B7154C657B002118D8 /* Supporting Files */,
+				BF9607F3154C6B5D002118D8 /* ShoppingListControllerViewController.h */,
+				BF9607F4154C6B5D002118D8 /* ShoppingListControllerViewController.m */,
+			);
+			path = ListMaster;
+			sourceTree = "<group>";
+		};
+		BF9607B7154C657B002118D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607B8154C657B002118D8 /* ListMaster-Info.plist */,
+				BF9607B9154C657B002118D8 /* InfoPlist.strings */,
+				BF9607BC154C657B002118D8 /* main.m */,
+				BF9607BE154C657B002118D8 /* ListMaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9607E0154C657C002118D8 /* ListMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607E6154C657C002118D8 /* ListMasterTests.h */,
+				BF9607E7154C657C002118D8 /* ListMasterTests.m */,
+				BF9607E1154C657C002118D8 /* Supporting Files */,
+			);
+			path = ListMasterTests;
+			sourceTree = "<group>";
+		};
+		BF9607E1154C657C002118D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607E2154C657C002118D8 /* ListMasterTests-Info.plist */,
+				BF9607E3154C657C002118D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9607F1154C6AD7002118D8 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607CE154C657C002118D8 /* DetailViewController_iPhone.xib */,
+				BF9607C8154C657B002118D8 /* MasterViewController_iPhone.xib */,
+				BF9607FB154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.h */,
+				BF9607FC154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m */,
+				BF9607FD154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BF9607F2154C6AE6002118D8 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BF9607D1154C657C002118D8 /* DetailViewController_iPad.xib */,
+				BF9607F6154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.h */,
+				BF9607F7154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m */,
+				BF9607F8154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib */,
+				BF9607CB154C657C002118D8 /* MasterViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9607AB154C657B002118D8 /* ListMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9607EB154C657C002118D8 /* Build configuration list for PBXNativeTarget "ListMaster" */;
+			buildPhases = (
+				BF9607A8154C657B002118D8 /* Sources */,
+				BF9607A9154C657B002118D8 /* Frameworks */,
+				BF9607AA154C657B002118D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListMaster;
+			productName = ListMaster;
+			productReference = BF9607AC154C657B002118D8 /* ListMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9607D8154C657C002118D8 /* ListMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9607EE154C657C002118D8 /* Build configuration list for PBXNativeTarget "ListMasterTests" */;
+			buildPhases = (
+				BF9607D4154C657C002118D8 /* Sources */,
+				BF9607D5154C657C002118D8 /* Frameworks */,
+				BF9607D6154C657C002118D8 /* Resources */,
+				BF9607D7154C657C002118D8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9607DF154C657C002118D8 /* PBXTargetDependency */,
+			);
+			name = ListMasterTests;
+			productName = ListMasterTests;
+			productReference = BF9607D9154C657C002118D8 /* ListMasterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9607A3154C657B002118D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Hobsons;
+			};
+			buildConfigurationList = BF9607A6154C657B002118D8 /* Build configuration list for PBXProject "ListMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF9607A1154C657B002118D8;
+			productRefGroup = BF9607AD154C657B002118D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9607AB154C657B002118D8 /* ListMaster */,
+				BF9607D8154C657C002118D8 /* ListMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9607AA154C657B002118D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9607BB154C657B002118D8 /* InfoPlist.strings in Resources */,
+				BF9607CA154C657B002118D8 /* MasterViewController_iPhone.xib in Resources */,
+				BF9607CD154C657C002118D8 /* MasterViewController_iPad.xib in Resources */,
+				BF9607D0154C657C002118D8 /* DetailViewController_iPhone.xib in Resources */,
+				BF9607D3154C657C002118D8 /* DetailViewController_iPad.xib in Resources */,
+				BF9607FA154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.xib in Resources */,
+				BF9607FF154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9607D6154C657C002118D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9607E5154C657C002118D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF9607D7154C657C002118D8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9607A8154C657B002118D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9607BD154C657B002118D8 /* main.m in Sources */,
+				BF9607C1154C657B002118D8 /* AppDelegate.m in Sources */,
+				BF9607C4154C657B002118D8 /* MasterViewController.m in Sources */,
+				BF9607C7154C657B002118D8 /* DetailViewController.m in Sources */,
+				BF9607F5154C6B5D002118D8 /* ShoppingListControllerViewController.m in Sources */,
+				BF9607F9154C6B8B002118D8 /* ShoppingListControllerViewController_iPad.m in Sources */,
+				BF9607FE154C6BA5002118D8 /* ShoppingListControllerViewController_iPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9607D4154C657C002118D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9607E8154C657C002118D8 /* ListMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9607DF154C657C002118D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9607AB154C657B002118D8 /* ListMaster */;
+			targetProxy = BF9607DE154C657C002118D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9607B9154C657B002118D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9607BA154C657B002118D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF9607C8154C657B002118D8 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9607C9154C657B002118D8 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BF9607CB154C657C002118D8 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9607CC154C657C002118D8 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BF9607CE154C657C002118D8 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9607CF154C657C002118D8 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BF9607D1154C657C002118D8 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9607D2154C657C002118D8 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BF9607E3154C657C002118D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9607E4154C657C002118D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9607E9154C657C002118D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF9607EA154C657C002118D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9607EC154C657C002118D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ListMaster/ListMaster-Prefix.pch";
+				INFOPLIST_FILE = "ListMaster/ListMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF9607ED154C657C002118D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ListMaster/ListMaster-Prefix.pch";
+				INFOPLIST_FILE = "ListMaster/ListMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF9607EF154C657C002118D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ListMaster.app/ListMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ListMaster/ListMaster-Prefix.pch";
+				INFOPLIST_FILE = "ListMasterTests/ListMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BF9607F0154C657C002118D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ListMaster.app/ListMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ListMaster/ListMaster-Prefix.pch";
+				INFOPLIST_FILE = "ListMasterTests/ListMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9607A6154C657B002118D8 /* Build configuration list for PBXProject "ListMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9607E9154C657C002118D8 /* Debug */,
+				BF9607EA154C657C002118D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9607EB154C657C002118D8 /* Build configuration list for PBXNativeTarget "ListMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9607EC154C657C002118D8 /* Debug */,
+				BF9607ED154C657C002118D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9607EE154C657C002118D8 /* Build configuration list for PBXNativeTarget "ListMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9607EF154C657C002118D8 /* Debug */,
+				BF9607F0154C657C002118D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9607A3154C657B002118D8 /* Project object */;
+}
