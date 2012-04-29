@@ -26,6 +26,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    ShoppingItemView_iPhone *foo=[[ShoppingItemView_iPhone alloc]initWithFrame:CGRectMake(10.0, 110.0, 80.0, 40.0)];
+    MTHShoppingItem *item=[[MTHShoppingItem alloc]init];
+    [item setStoreName:@"miejer"];
+    [item setItemName:@"Beer"];
+    [foo setCurrentItem:item];
+    [[self view]addSubview:foo];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -38,7 +44,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 @end

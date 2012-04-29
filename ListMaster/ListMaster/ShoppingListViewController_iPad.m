@@ -26,6 +26,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //fake data
+    
+    ShoppingItemView_iPad *foo=[[ShoppingItemView_iPad alloc]initWithFrame:CGRectMake(20.0, 210.0, 160.0, 40.0)];
+    MTHShoppingItem *item=[[MTHShoppingItem alloc]init];
+    [item setStoreName:@"miejer"];
+    [item setItemName:@"Beer"];
+    [foo setCurrentItem:item];
+    [[self view]addSubview:foo];
+    
+    
+  
+    
+    
+    
     // Do any additional setup after loading the view from its nib.
 }
 

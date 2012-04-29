@@ -7,6 +7,7 @@
 //
 
 #import "ShoppingListViewController.h"
+#import "ShoppingItemView_iPhone.h"
 
 @interface ShoppingListViewController_iPhone : ShoppingListViewController
 

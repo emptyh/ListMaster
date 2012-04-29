@@ -29,6 +29,13 @@
 		BF9607FA154C6B8B002118D8 /* ShoppingListViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607F8154C6B8B002118D8 /* ShoppingListViewController_iPad.xib */; };
 		BF9607FE154C6BA5002118D8 /* ShoppingListViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9607FC154C6BA5002118D8 /* ShoppingListViewController_iPhone.m */; };
 		BF9607FF154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9607FD154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib */; };
+		BF960803154C8298002118D8 /* MTHShoppingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BF960802154C8298002118D8 /* MTHShoppingItem.m */; };
+		BF960806154C9070002118D8 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BF960805154C9070002118D8 /* images-1.jpeg */; };
+		BF960808154C9244002118D8 /* red-X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF960807154C9244002118D8 /* red-X.jpg */; };
+		BF96080A154C9304002118D8 /* defer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BF960809154C9304002118D8 /* defer.jpeg */; };
+		BF96080E154DBF09002118D8 /* ShoppingItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96080D154DBF09002118D8 /* ShoppingItemView.m */; };
+		BF960811154DBFBD002118D8 /* ShoppingItemView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BF960810154DBFBD002118D8 /* ShoppingItemView_iPad.m */; };
+		BF960814154DD3A5002118D8 /* ShoppingItemView_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BF960813154DD3A5002118D8 /* ShoppingItemView_iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +73,25 @@
 		BF9607E4154C657C002118D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF9607E6154C657C002118D8 /* ListMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListMasterTests.h; sourceTree = "<group>"; };
 		BF9607E7154C657C002118D8 /* ListMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListMasterTests.m; sourceTree = "<group>"; };
-		BF9607F3154C6B5D002118D8 /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShoppingListViewController.h; sourceTree = "<group>"; };
+		BF9607F3154C6B5D002118D8 /* ShoppingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController.h; sourceTree = "<group>"; };
 		BF9607F4154C6B5D002118D8 /* ShoppingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController.m; sourceTree = "<group>"; };
-		BF9607F6154C6B8B002118D8 /* ShoppingListViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShoppingListViewController_iPad.h; sourceTree = "<group>"; };
+		BF9607F6154C6B8B002118D8 /* ShoppingListViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController_iPad.h; sourceTree = "<group>"; };
 		BF9607F7154C6B8B002118D8 /* ShoppingListViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController_iPad.m; sourceTree = "<group>"; };
 		BF9607F8154C6B8B002118D8 /* ShoppingListViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListViewController_iPad.xib; sourceTree = "<group>"; };
-		BF9607FB154C6BA5002118D8 /* ShoppingListViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ShoppingListViewController_iPhone.h; sourceTree = "<group>"; };
+		BF9607FB154C6BA5002118D8 /* ShoppingListViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingListViewController_iPhone.h; sourceTree = "<group>"; };
 		BF9607FC154C6BA5002118D8 /* ShoppingListViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingListViewController_iPhone.m; sourceTree = "<group>"; };
 		BF9607FD154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingListViewController_iPhone.xib; sourceTree = "<group>"; };
+		BF960801154C8298002118D8 /* MTHShoppingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTHShoppingItem.h; sourceTree = "<group>"; };
+		BF960802154C8298002118D8 /* MTHShoppingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTHShoppingItem.m; sourceTree = "<group>"; };
+		BF960805154C9070002118D8 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		BF960807154C9244002118D8 /* red-X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red-X.jpg"; sourceTree = "<group>"; };
+		BF960809154C9304002118D8 /* defer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defer.jpeg; sourceTree = "<group>"; };
+		BF96080C154DBF09002118D8 /* ShoppingItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItemView.h; sourceTree = "<group>"; };
+		BF96080D154DBF09002118D8 /* ShoppingItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemView.m; sourceTree = "<group>"; };
+		BF96080F154DBFBD002118D8 /* ShoppingItemView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItemView_iPad.h; sourceTree = "<group>"; };
+		BF960810154DBFBD002118D8 /* ShoppingItemView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemView_iPad.m; sourceTree = "<group>"; };
+		BF960812154DD3A5002118D8 /* ShoppingItemView_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingItemView_iPhone.h; sourceTree = "<group>"; };
+		BF960813154DD3A5002118D8 /* ShoppingItemView_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingItemView_iPhone.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +151,8 @@
 		BF9607B6154C657B002118D8 /* ListMaster */ = {
 			isa = PBXGroup;
 			children = (
+				BF960804154C905E002118D8 /* images */,
+				BF960800154C8277002118D8 /* Model */,
 				BF9607F2154C6AE6002118D8 /* iPad */,
 				BF9607F1154C6AD7002118D8 /* iPhone */,
 				BF9607BF154C657B002118D8 /* AppDelegate.h */,
@@ -186,6 +206,8 @@
 				BF9607FB154C6BA5002118D8 /* ShoppingListViewController_iPhone.h */,
 				BF9607FC154C6BA5002118D8 /* ShoppingListViewController_iPhone.m */,
 				BF9607FD154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib */,
+				BF960812154DD3A5002118D8 /* ShoppingItemView_iPhone.h */,
+				BF960813154DD3A5002118D8 /* ShoppingItemView_iPhone.m */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -198,8 +220,39 @@
 				BF9607F7154C6B8B002118D8 /* ShoppingListViewController_iPad.m */,
 				BF9607F8154C6B8B002118D8 /* ShoppingListViewController_iPad.xib */,
 				BF9607CB154C657C002118D8 /* MasterViewController_iPad.xib */,
+				BF96080F154DBFBD002118D8 /* ShoppingItemView_iPad.h */,
+				BF960810154DBFBD002118D8 /* ShoppingItemView_iPad.m */,
 			);
 			name = iPad;
+			sourceTree = "<group>";
+		};
+		BF960800154C8277002118D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF96080B154DBEC1002118D8 /* ShoppingItem */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF960804154C905E002118D8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BF960809154C9304002118D8 /* defer.jpeg */,
+				BF960807154C9244002118D8 /* red-X.jpg */,
+				BF960805154C9070002118D8 /* images-1.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BF96080B154DBEC1002118D8 /* ShoppingItem */ = {
+			isa = PBXGroup;
+			children = (
+				BF960801154C8298002118D8 /* MTHShoppingItem.h */,
+				BF960802154C8298002118D8 /* MTHShoppingItem.m */,
+				BF96080C154DBF09002118D8 /* ShoppingItemView.h */,
+				BF96080D154DBF09002118D8 /* ShoppingItemView.m */,
+			);
+			name = ShoppingItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +333,9 @@
 				BF9607D3154C657C002118D8 /* DetailViewController_iPad.xib in Resources */,
 				BF9607FA154C6B8B002118D8 /* ShoppingListViewController_iPad.xib in Resources */,
 				BF9607FF154C6BA5002118D8 /* ShoppingListViewController_iPhone.xib in Resources */,
+				BF960806154C9070002118D8 /* images-1.jpeg in Resources */,
+				BF960808154C9244002118D8 /* red-X.jpg in Resources */,
+				BF96080A154C9304002118D8 /* defer.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +377,10 @@
 				BF9607F5154C6B5D002118D8 /* ShoppingListViewController.m in Sources */,
 				BF9607F9154C6B8B002118D8 /* ShoppingListViewController_iPad.m in Sources */,
 				BF9607FE154C6BA5002118D8 /* ShoppingListViewController_iPhone.m in Sources */,
+				BF960803154C8298002118D8 /* MTHShoppingItem.m in Sources */,
+				BF96080E154DBF09002118D8 /* ShoppingItemView.m in Sources */,
+				BF960811154DBFBD002118D8 /* ShoppingItemView_iPad.m in Sources */,
+				BF960814154DD3A5002118D8 /* ShoppingItemView_iPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
